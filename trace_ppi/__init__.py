@@ -1,3 +1,3 @@
-"""TRACE-PPI: Evidence-Constrained Hierarchical Overlap for Protein-Protein Interaction networks."""
+"""TRACE-PPI: Tiered Record of Assignment-level Channel Evidence."""
 
 __version__ = "1.0.0"

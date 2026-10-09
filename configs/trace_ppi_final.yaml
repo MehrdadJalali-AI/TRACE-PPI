@@ -1,6 +1,6 @@
 # Official TRACE-PPI pipeline configuration
 method_name: TRACE-PPI
-acronym_expansion: Evidence-Constrained Hierarchical Overlap for Protein-Protein Interaction networks
+acronym_expansion: Tiered Record of Assignment-level Channel Evidence
 dataset: gavin
 seeds: [42, 43, 44, 45, 46]
 
