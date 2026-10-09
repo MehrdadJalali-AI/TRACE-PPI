@@ -1,0 +1,3 @@
+initial_mcl_modules,final_trace_modules,proteins_with_added_overlap,added_overlap_assignments,proteins_transferred,transfer_operations,proteins_added_by_supplementation,supplementation_assignments,modules_changed_relative_to_mcl,pct_modules_changed,total_assignments_before,total_assignments_after,dataset,seed_inflation,supplement_proteins_added,supplement_modules_touched,supplement_modules_rejected_size
+306,268,30,183,143,143,58,60,151,56.343283582089555,1830,1912,gavin,2.0,60,49,0
+595,539,71,315,195,195,89,95,235,43.59925788497217,2635,2821,krogan,2.0,95,77,0

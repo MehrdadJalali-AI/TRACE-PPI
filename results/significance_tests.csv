@@ -1,0 +1,5 @@
+comparison,n_pairs,wilcoxon_statistic,p_value,note
+TRACE-PPI_final_vs_MCL,5,3.0,0.3125,exploratory; five held-out splits
+TRACE-PPI_final_vs_MCL_overlap_heuristic,5,0.0,0.31731050786291415,exploratory; five held-out splits
+TRACE-PPI_final_vs_score_select_only_ablation,5,0.0,0.0625,exploratory; five held-out splits
+TRACE-PPI_final_vs_ClusterONE_exact,5,0.0,0.0625,exploratory; five held-out splits

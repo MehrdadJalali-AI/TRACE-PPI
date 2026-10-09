@@ -1,0 +1,17 @@
+MCL binary not found. Trying Python markov_clustering.
+MCL binary not found. Trying Python markov_clustering.
+MCL binary not found. Trying Python markov_clustering.
+MCL binary not found. Trying Python markov_clustering.
+MCL binary not found. Trying Python markov_clustering.
+MCL binary not found. Trying Python markov_clustering.
+MCL binary not found. Trying Python markov_clustering.
+Python MCL returned 903 clusters on 2671 nodes; treating as failure.
+Python MCL failed. Using Louvain fallback.
+MCL binary not found. Trying Python markov_clustering.
+Python MCL returned 903 clusters on 2671 nodes; treating as failure.
+Python MCL failed. Using Louvain fallback.
+gavin 2.0 MCL 0.16157205240174674 0.16400911161731208 0.16173120728929385
+gavin 3.0 MCL 0.21280788177339904 0.18784530386740328 0.19005524861878456
+krogan 2.0 MCL 0.22738589211618257 0.23150565709312446 0.23150565709312446
+krogan 3.0 MCL 0.05120910384068279 0.05135520684736092 0.05135520684736092
+EXIT:0

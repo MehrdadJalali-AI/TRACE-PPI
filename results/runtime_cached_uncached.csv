@@ -1,0 +1,5 @@
+method,cache_state,runtime_sec,embedding_backend
+TRACE-PPI,cached,5.776262998580933,cached:fallback_tfidf_svd
+Score-select,cached,2.0487680435180664,cached:fallback_tfidf_svd
+TRACE-PPI,uncached_embedding,12.655208110809326,fallback_tfidf_svd
+Score-select,uncached_embedding,2.7391669750213623,fallback_tfidf_svd

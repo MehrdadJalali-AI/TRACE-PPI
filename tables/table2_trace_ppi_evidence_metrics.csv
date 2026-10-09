@@ -1,0 +1,6 @@
+metric,value
+evidence_bundle_field_completeness,1.0
+mean_module_size,7.134328358208955
+overlap_protein_fraction,0.04395604395604396
+go_coherence_mean,0.09191373014655091
+runtime_sec_gavin_cached,24.94700527191162

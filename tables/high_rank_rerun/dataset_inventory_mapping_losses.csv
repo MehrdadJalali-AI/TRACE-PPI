@@ -1,0 +1,7 @@
+dataset,available,source_path,input_rows,mapped_edges,dropped_unmapped_rows,nodes,nodes_with_go,gold_protein_coverage,notes
+gavin_yeast,True,./data/gavin2006_socioaffinities_rescaled.txt,7601,7601,0,1860,37,0.579408543263965,Runnable local yeast network with CYC2008 gold mapping.
+string_yeast,True,./data/4932.protein.links.detailed.v11.5.txt,1988592,118544,30,5949,541,0.9961664841182913,Runnable local yeast network with CYC2008 gold mapping.
+biogrid_yeast,True,./data/biogrid_scerivise.tab3.txt,869229,178019,5254,5828,653,1.0,Runnable local yeast network with CYC2008 gold mapping.
+krogan_yeast,False,,0,0,0,0,0,0.0,No separate Krogan edge list found in this TRACE-PPI workspace or linked local data.
+human_bioplex,False,,0,0,0,0,0,0.0,No local BioPlex/CORUM-compatible human PPI and no human gold mapping available.
+human_corum,False,,0,0,0,0,0,0.0,No local human CORUM-compatible PPI/gold mapping available.

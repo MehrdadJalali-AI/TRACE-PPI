@@ -1,0 +1,2 @@
+baseline,status,reason,jar,dataset,n_modules
+ClusterONE,exact_included,Official ClusterONE 1.0 JAR completed successfully.,./tools/clusterone/cluster_one-1.0.jar,krogan,654

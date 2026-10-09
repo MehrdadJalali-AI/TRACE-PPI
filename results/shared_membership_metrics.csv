@@ -1,0 +1,5 @@
+method,shared_membership_precision,shared_membership_recall,shared_membership_f1,shared_membership_correct,shared_membership_false,shared_membership_missed,n_reference_shared_proteins,n_true_shared_proteins_recovered,correct_secondary_memberships,false_secondary_memberships,missed_secondary_memberships
+MCL,0.0,0.0,0.0,0,0,1352,477,0,0,0,1352
+Original TRACE-PPI,0.25,0.0007396449704142012,0.0014749262536873158,1,3,1351,477,1,1,3,1351
+TRACE-PPI deconvolution,0.7088607594936709,0.08284023668639054,0.14834437086092717,112,46,1240,477,60,112,46,1240
+SLPA,0.3333333333333333,0.004437869822485207,0.00875912408759124,6,12,1346,477,6,6,12,1346

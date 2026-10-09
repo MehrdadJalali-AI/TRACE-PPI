@@ -1,0 +1,7 @@
+community_id,protein_id,membership_type,membership_score,topology_score,semantic_score,go_score,expansion_gain,gold_supported,evidence_summary
+89,YKR018C,inner_orbit,0.24383583872617395,0.0,0.4876716774523479,1.0,0.0,0.0,"YKR018C assigned to module 89 as inner_orbit; topology=0.00, semantic=0.49, GO=1.00; gold-supported=False."
+116,YKR018C,uncertain_orbit,0.06888210559107841,0.1111111111111111,0.02665310007104572,1.0,0.0,0.0,"YKR018C assigned to module 116 as uncertain_orbit; topology=0.11, semantic=0.03, GO=1.00; gold-supported=False."
+169,YKR018C,inner_orbit,0.49807563572282876,0.14285714285714285,0.8532941285885147,1.0,0.0,0.0,"YKR018C assigned to module 169 as inner_orbit; topology=0.14, semantic=0.85, GO=1.00; gold-supported=False."
+189,YKR018C,inner_orbit,0.2773561567392219,0.0,0.5547123134784439,1.0,0.0,0.0,"YKR018C assigned to module 189 as inner_orbit; topology=0.00, semantic=0.55, GO=1.00; gold-supported=False."
+215,YKR018C,uncertain_orbit,0.009810146172684754,0.0,0.01962029234536951,1.0,0.0,0.0,"YKR018C assigned to module 215 as uncertain_orbit; topology=0.00, semantic=0.02, GO=1.00; gold-supported=False."
+297,YKR018C,inner_orbit,0.27610935724006025,0.0,0.5522187144801205,1.0,0.0,0.0,"YKR018C assigned to module 297 as inner_orbit; topology=0.00, semantic=0.55, GO=1.00; gold-supported=False."

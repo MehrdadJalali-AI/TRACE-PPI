@@ -1,0 +1,13 @@
+n_true_complexes,overlap_fraction,noise_probability,n_recovered_complexes,method,membership_precision,membership_recall,membership_f1,membership_correct,membership_false,membership_missed,mapped_predicted_modules,shared_membership_precision,shared_membership_recall,shared_membership_f1,shared_membership_correct,shared_membership_false,shared_membership_missed,n_reference_shared_proteins,n_true_shared_proteins_recovered,correct_secondary_memberships,false_secondary_memberships,missed_secondary_memberships
+2,0.1,0.02,7,seed_expand,1.0,1.0,1.0,26,0,0,2,1.0,1.0,1.0,2,0,0,1,1,2,0,0
+2,0.1,0.1,2,spectral,1.0,1.0,1.0,26,0,0,2,1.0,1.0,1.0,2,0,0,1,1,2,0,0
+2,0.3,0.02,7,seed_expand,0.8571428571428571,1.0,0.923076923076923,30,5,0,7,1.0,1.0,1.0,6,0,0,3,3,6,0,0
+2,0.3,0.1,2,spectral,1.0,1.0,1.0,30,0,0,2,1.0,1.0,1.0,6,0,0,3,3,6,0,0
+2,0.5,0.02,7,seed_expand,0.8780487804878049,1.0,0.9350649350649352,36,5,0,7,1.0,1.0,1.0,12,0,0,6,6,12,0,0
+2,0.5,0.1,2,spectral,1.0,1.0,1.0,36,0,0,2,1.0,1.0,1.0,12,0,0,6,6,12,0,0
+3,0.1,0.02,11,seed_expand,0.975,1.0,0.9873417721518987,39,1,0,3,1.0,1.0,1.0,3,0,0,1,1,3,0,0
+3,0.1,0.1,32,seed_expand,0.7959183673469388,1.0,0.8863636363636364,39,10,0,13,1.0,1.0,1.0,3,0,0,1,1,3,0,0
+3,0.3,0.02,10,seed_expand,0.8823529411764706,1.0,0.9375,45,6,0,9,1.0,1.0,1.0,9,0,0,3,3,9,0,0
+3,0.3,0.1,27,seed_expand,0.6338028169014085,1.0,0.7758620689655172,45,26,0,27,1.0,1.0,1.0,9,0,0,3,3,9,0,0
+3,0.5,0.02,10,seed_expand,0.8709677419354839,1.0,0.9310344827586207,54,8,0,10,1.0,1.0,1.0,18,0,0,6,6,18,0,0
+3,0.5,0.1,20,seed_expand,0.675,1.0,0.8059701492537313,54,26,0,20,1.0,1.0,1.0,18,0,0,6,6,18,0,0

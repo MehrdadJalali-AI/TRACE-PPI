@@ -1,0 +1,7 @@
+{
+  "dataset": "krogan",
+  "embedding_backend": "fallback_tfidf_svd",
+  "embedding_dim": 64,
+  "n_proteins": 2671,
+  "cache_status": "rebuilt"
+}

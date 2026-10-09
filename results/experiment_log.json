@@ -1,0 +1,28 @@
+{
+  "commit_hash": "unavailable (working directory is not a Git checkout)",
+  "dataset": "gavin",
+  "embedding_backend": "cached:fallback_tfidf_svd",
+  "graph_edges": 7578,
+  "graph_nodes": 1848,
+  "heterogeneity_quantile": 0.75,
+  "membership_threshold": "candidate-specific incumbent-score lower quartile",
+  "membership_weights": {
+    "go": 0.2,
+    "semantic": 0.35,
+    "topology": 0.45
+  },
+  "python": "3.9.6",
+  "random_seed": 42,
+  "runtime_seconds": 104.9625473022461,
+  "shared_margin": 0.85,
+  "supplementation": {
+    "modules_rejected_size": 0,
+    "modules_touched": 266,
+    "proteins_added": 292,
+    "reject_precision": 0,
+    "stop_gain": 16,
+    "stop_gate": 0,
+    "stop_relative_size_cap": 683,
+    "stop_two_member_cap": 26
+  }
+}

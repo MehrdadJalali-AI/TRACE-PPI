@@ -1,0 +1,2 @@
+dataset,nodes,nodes_with_nongeneric_go,go_coverage,generic_roots_removed
+krogan,2671,2652,0.9928865593410707,GO:0003674;GO:0005575;GO:0008150

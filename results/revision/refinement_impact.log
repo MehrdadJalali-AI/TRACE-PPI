@@ -1,0 +1,43 @@
+MCL binary not found. Trying Python markov_clustering.
+MCL binary not found. Trying Python markov_clustering.
+MCL binary not found. Trying Python markov_clustering.
+MCL binary not found. Trying Python markov_clustering.
+gavin {
+  "initial_mcl_modules": 306,
+  "final_trace_modules": 268,
+  "proteins_with_added_overlap": 30,
+  "added_overlap_assignments": 183,
+  "proteins_transferred": 143,
+  "transfer_operations": 143,
+  "proteins_added_by_supplementation": 58,
+  "supplementation_assignments": 60,
+  "modules_changed_relative_to_mcl": 151,
+  "pct_modules_changed": 56.343283582089555,
+  "total_assignments_before": 1830,
+  "total_assignments_after": 1912,
+  "dataset": "gavin",
+  "seed_inflation": 2.0,
+  "supplement_proteins_added": 60,
+  "supplement_modules_touched": 49,
+  "supplement_modules_rejected_size": 0
+}
+krogan {
+  "initial_mcl_modules": 595,
+  "final_trace_modules": 539,
+  "proteins_with_added_overlap": 71,
+  "added_overlap_assignments": 315,
+  "proteins_transferred": 195,
+  "transfer_operations": 195,
+  "proteins_added_by_supplementation": 89,
+  "supplementation_assignments": 95,
+  "modules_changed_relative_to_mcl": 235,
+  "pct_modules_changed": 43.59925788497217,
+  "total_assignments_before": 2635,
+  "total_assignments_after": 2821,
+  "dataset": "krogan",
+  "seed_inflation": 2.0,
+  "supplement_proteins_added": 95,
+  "supplement_modules_touched": 77,
+  "supplement_modules_rejected_size": 0
+}
+EXIT:0

@@ -1,0 +1,14 @@
+{
+  "dataset": "krogan",
+  "source": "BioGRID TAB3 records filtered to PUBMED:16554755 (Krogan et al., Nature 2006)",
+  "gold_standard": "./data/gold_standards/cyc2008_yeast.csv",
+  "jaccard_threshold": 0.5,
+  "clusterone_status": {
+    "baseline": "ClusterONE",
+    "status": "exact_included",
+    "reason": "Official ClusterONE 1.0 JAR completed successfully.",
+    "jar": "./tools/clusterone/cluster_one-1.0.jar",
+    "dataset": "krogan",
+    "n_modules": 654
+  }
+}

@@ -1,0 +1,32 @@
+# Official TRACE-PPI pipeline configuration
+method_name: TRACE-PPI
+acronym_expansion: Evidence-Constrained Hierarchical Overlap for Protein-Protein Interaction networks
+dataset: gavin
+seeds: [42, 43, 44, 45, 46]
+
+base_method: mcl_overlap
+skip_expansion: true
+recall_safe_supplement: true
+apply_orbit_labels: true
+preserve_all: true
+
+supplement:
+  max_extra_members_per_module: 2
+  max_relative_size_increase: 0.15
+  min_evidence_score: 0.38
+  min_go_support: 0.25
+  min_topological_support: 0.15
+  min_semantic_support: 0.28
+  size_penalty_lambda: 0.08
+  preserve_precision_floor: 0.24
+
+nucleus_potential_weights:
+  degree: 0.25
+  clustering: 0.15
+  kcore: 0.20
+  semantic_neighborhood: 0.20
+  evidence_richness: 0.20
+  uncertainty_penalty: 0.05
+
+evaluation:
+  jaccard_threshold: 0.5

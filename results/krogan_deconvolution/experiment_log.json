@@ -1,0 +1,28 @@
+{
+  "commit_hash": "unavailable (working directory is not a Git checkout)",
+  "dataset": "krogan",
+  "embedding_backend": "cached:fallback_tfidf_svd",
+  "graph_edges": 7072,
+  "graph_nodes": 2671,
+  "heterogeneity_quantile": 0.75,
+  "membership_threshold": "candidate-specific incumbent-score lower quartile",
+  "membership_weights": {
+    "go": 0.2,
+    "semantic": 0.35,
+    "topology": 0.45
+  },
+  "python": "3.9.6",
+  "random_seed": 42,
+  "runtime_seconds": 144.56390190124512,
+  "shared_margin": 0.85,
+  "supplementation": {
+    "modules_rejected_size": 0,
+    "modules_touched": 132,
+    "proteins_added": 149,
+    "reject_precision": 0,
+    "stop_gain": 11,
+    "stop_gate": 0,
+    "stop_relative_size_cap": 856,
+    "stop_two_member_cap": 17
+  }
+}

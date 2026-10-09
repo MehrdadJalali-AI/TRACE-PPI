@@ -1,0 +1,16 @@
+MCL binary not found. Trying Python markov_clustering.
+MCL binary not found. Trying Python markov_clustering.
+MCL binary not found. Trying Python markov_clustering.
+MCL binary not found. Trying Python markov_clustering.
+dataset        method  proteins_assigned  proteins_with_gt1_module  pct_with_gt1_module  mean_assignments_per_protein  median_assignments_per_protein  max_assignments_per_protein  total_assignments  modules
+  gavin      TRACE-PPI               1820                        80             4.395604                      1.050549                             1.0                            6               1912      268
+  gavin           MCL               1830                         0             0.000000                      1.000000                             1.0                            1               1830      306
+  gavin   MCL+overlap               1830                        32             1.748634                      1.021858                             1.0                            4               1870      286
+  gavin    ClusterONE                831                       192            23.104693                      1.403129                             1.0                           10               1166      228
+  gavin SLPA (t=0.05)               1848                       481            26.028139                      1.353896                             1.0                            6               2502      201
+ krogan      TRACE-PPI               2619                       155             5.918289                      1.077129                             1.0                            7               2821      539
+ krogan           MCL               2634                         1             0.037965                      1.000380                             1.0                            2               2635      595
+ krogan   MCL+overlap               2634                        81             3.075171                      1.045938                             1.0                            7               2755      568
+ krogan    ClusterONE               2239                       487            21.750782                      1.256811                             1.0                            4               2814      654
+ krogan SLPA (t=0.05)               2671                      1110            41.557469                      1.550730                             1.0                            5               4142      291
+EXIT:0

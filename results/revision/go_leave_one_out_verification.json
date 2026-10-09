@@ -1,0 +1,225 @@
+{
+  "gavin": {
+    "f1": 0.16173120728929385,
+    "precision": 0.26492537313432835,
+    "recall": 0.11639344262295082,
+    "n_modules_fresh": 268,
+    "n_modules_stored": 268,
+    "module_sets_equal": true,
+    "n_assignments_shared": 1912,
+    "n_assignments_stored": 1912,
+    "n_assignments_fresh": 1912,
+    "label_mismatches": 0,
+    "tau_mismatches": 0,
+    "sigma_mismatches": 0,
+    "channels": [
+      {
+        "lab": "core",
+        "n": 1192,
+        "tau": 0.713979,
+        "sigma": 0.788527,
+        "go": 0.646003,
+        "multi": 1.0
+      },
+      {
+        "lab": "inner",
+        "n": 710,
+        "tau": 0.176956,
+        "sigma": 0.69903,
+        "go": 0.652601,
+        "multi": 0.994366
+      },
+      {
+        "lab": "outer",
+        "n": 7,
+        "tau": 0.159089,
+        "sigma": -0.012987,
+        "go": 0.0,
+        "multi": 0.142857
+      },
+      {
+        "lab": "uncertain",
+        "n": 3,
+        "tau": 0.033333,
+        "sigma": 0.0,
+        "go": 0.0,
+        "multi": 0.0
+      }
+    ],
+    "enrichment": {
+      "core_gold": 424,
+      "core_n": 1192,
+      "non_gold": 57,
+      "non_n": 720,
+      "odds_ratio": 6.421600877192983,
+      "p": 1.4217247667750748e-46,
+      "labels": {
+        "core": 1192,
+        "inner": 710,
+        "outer": 7,
+        "uncertain": 3
+      }
+    },
+    "metrics_full": {
+      "precision": 0.26492537313432835,
+      "recall": 0.11639344262295082,
+      "f1": 0.16173120728929385
+    }
+  },
+  "krogan": {
+    "f1": 0.23150565709312446,
+    "precision": 0.24675324675324675,
+    "recall": 0.2180327868852459,
+    "n_modules_fresh": 539,
+    "n_modules_stored": 539,
+    "module_sets_equal": true,
+    "n_assignments_shared": 2821,
+    "n_assignments_stored": 2821,
+    "n_assignments_fresh": 2821,
+    "label_mismatches": 0,
+    "tau_mismatches": 0,
+    "sigma_mismatches": 0,
+    "channels": [
+      {
+        "lab": "core",
+        "n": 1365,
+        "tau": 0.742868,
+        "sigma": 0.736049,
+        "go": 0.561288,
+        "multi": 1.0
+      },
+      {
+        "lab": "inner",
+        "n": 1442,
+        "tau": 0.186087,
+        "sigma": 0.672486,
+        "go": 0.538345,
+        "multi": 0.986824
+      },
+      {
+        "lab": "outer",
+        "n": 10,
+        "tau": 0.107582,
+        "sigma": 0.178924,
+        "go": 0.244444,
+        "multi": 0.9
+      },
+      {
+        "lab": "uncertain",
+        "n": 4,
+        "tau": 0.045225,
+        "sigma": 0.0,
+        "go": 0.0,
+        "multi": 0.0
+      }
+    ],
+    "enrichment": {
+      "core_gold": 474,
+      "core_n": 1365,
+      "non_gold": 106,
+      "non_n": 1456,
+      "odds_ratio": 6.775300171526586,
+      "p": 1.3093233033885736e-76,
+      "labels": {
+        "inner": 1442,
+        "core": 1365,
+        "outer": 10,
+        "uncertain": 4
+      }
+    },
+    "metrics_full": {
+      "precision": 0.24675324675324675,
+      "recall": 0.2180327868852459,
+      "f1": 0.23150565709312446
+    }
+  },
+  "gavin_mcl_seed_matchable": {
+    "n_gold": 610,
+    "ge_0.5": 97,
+    "partial": 348,
+    "zero": 165,
+    "fraction_ge_0.5": 0.15901639344262294
+  },
+  "case_study": [
+    {
+      "protein_id": "YIL161W",
+      "community_id": 36,
+      "tier": "inner",
+      "topology_score": 0.333333,
+      "semantic_score": -0.007279,
+      "go_leave_one_out": 1.0
+    },
+    {
+      "protein_id": "YIL161W",
+      "community_id": 169,
+      "tier": "inner",
+      "topology_score": 0.0,
+      "semantic_score": 0.772728,
+      "go_leave_one_out": 1.0
+    },
+    {
+      "protein_id": "YIL161W",
+      "community_id": 232,
+      "tier": "inner",
+      "topology_score": 0.0,
+      "semantic_score": 0.430197,
+      "go_leave_one_out": 1.0
+    },
+    {
+      "protein_id": "YIL161W",
+      "community_id": 237,
+      "tier": "inner",
+      "topology_score": 0.0,
+      "semantic_score": 0.435897,
+      "go_leave_one_out": 1.0
+    },
+    {
+      "protein_id": "YKR018C",
+      "community_id": 89,
+      "tier": "inner",
+      "topology_score": 0.0,
+      "semantic_score": 0.487672,
+      "go_leave_one_out": 1.0
+    },
+    {
+      "protein_id": "YKR018C",
+      "community_id": 116,
+      "tier": "uncertain",
+      "topology_score": 0.111111,
+      "semantic_score": 0.026653,
+      "go_leave_one_out": 1.0
+    },
+    {
+      "protein_id": "YKR018C",
+      "community_id": 169,
+      "tier": "inner",
+      "topology_score": 0.142857,
+      "semantic_score": 0.853294,
+      "go_leave_one_out": 1.0
+    },
+    {
+      "protein_id": "YKR018C",
+      "community_id": 189,
+      "tier": "inner",
+      "topology_score": 0.0,
+      "semantic_score": 0.554712,
+      "go_leave_one_out": 1.0
+    },
+    {
+      "protein_id": "YKR018C",
+      "community_id": 215,
+      "tier": "uncertain",
+      "topology_score": 0.0,
+      "semantic_score": 0.01962,
+      "go_leave_one_out": 0.5
+    },
+    {
+      "protein_id": "YKR018C",
+      "community_id": 297,
+      "tier": "inner",
+      "topology_score": 0.0,
+      "semantic_score": 0.552219,
+      "go_leave_one_out": 1.0
+    }
+  ]
+}

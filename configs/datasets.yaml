@@ -1,0 +1,34 @@
+datasets:
+  gavin:
+    ppi: data/gavin2006_socioaffinities_rescaled.txt
+    go: data/GO.txt
+    gold: data/gold_standards/cyc2008_yeast.csv
+  string:
+    ppi: data/4932.protein.links.detailed.v11.5.txt
+    threshold: 700
+    aliases: data/cache/4932.protein.aliases.v11.5.txt.gz
+    go: data/GO.txt
+    gold: data/gold_standards/cyc2008_yeast.csv
+  biogrid_yeast:
+    ppi: data/biogrid_scerivise.tab3.txt
+    format: biogrid_tab3
+    interaction_type: physical
+    taxid: 559292
+    go: data/GO.txt
+    gold: data/gold_standards/cyc2008_yeast.csv
+  krogan_yeast:
+    ppi: data/krogan_yeast.tsv
+    status: missing
+    note: "No separate Krogan edge list is currently present in the workspace."
+  human_bioplex:
+    ppi: data/human_bioplex.tsv
+    gold: data/gold_standards/corum_human.csv
+    status: missing
+    note: "Human PPI and CORUM-compatible identifier mapping are not yet available."
+
+seeds: [42, 43, 44, 45, 46]
+
+trace_ppi_defaults:
+  mcl_inflation: 2.0
+  max_nuclei: 80
+  module_size_cap: 45

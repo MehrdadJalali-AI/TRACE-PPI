@@ -1,0 +1,6 @@
+method,f1,recall,overlap_output,assignment_evidence,confidence_labels,evidence_bundle_export,bundle_complete
+MCL,0.16157205240174674,0.12131147540983607,No,No,No,No,0.0
+MCL + overlap,0.16400911161731208,0.1180327868852459,Limited,No,No,No,0.0
+ClusterONE,0.26968973747016706,0.18524590163934426,Yes,No,No,No,0.0
+TRACE-PPI,0.16173120728929385,0.11639344262295082,Yes,Yes,Yes,Yes,1.0
+SLPA (sensitivity),0.13070283600493218,0.08688524590163935,Yes,No,No,No,0.0

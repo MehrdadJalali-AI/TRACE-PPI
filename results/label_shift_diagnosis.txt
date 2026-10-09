@@ -1,0 +1,45 @@
+TRACE-PPI label-shift diagnosis
+================================
+
+Current label rules:
+  core: topology_score >= 0.35 and semantic_score >= 0.25
+  inner: topology_score >= 0.25 or semantic_score >= 0.25
+  outer: topology_score >= 0.12 or semantic_score >= 0.12
+  uncertain: otherwise
+
+Threshold-change assessment:
+  No label-threshold change was detected in the active implementation.
+  The fixed cutoffs above are the active rules used by trace_ppi/event_horizon_v2.py.
+
+Current assignment distribution:
+  {'core': 1192, 'inner_orbit': 710, 'outer_orbit': 7, 'uncertain_orbit': 3}
+  topology mean/median: 0.511/0.500
+  semantic mean/median: 0.751/0.800
+  membership mean/median: 0.631/0.634
+
+Previous snapshot used for comparison:
+  path: backup_before_ieee_presubmission_fixes_20260519/results/communities/trace_ppi_refined_gavin.csv
+  {'inner_orbit': 1379, 'outer_orbit': 269, 'uncertain_orbit': 186, 'core': 32}
+  topology mean/median: 0.533/0.500
+  semantic mean/median: -0.001/-0.003
+  membership mean/median: 0.266/0.258
+
+Cause diagnosis:
+  The dominant driver is the semantic-score distribution, not a threshold change.
+  The median semantic score shifted from -0.003 to 0.800,
+  while the topology median stayed at 0.500 versus 0.500.
+  Because the Core rule requires semantic_score >= 0.25 together with topology_score >= 0.35,
+  the rebuilt semantic cache moved many assignments from Inner/Outer into Core.
+
+Profile/cache comparison:
+  previous profile rows: 1860
+  current profile rows: 1848
+  The previous snapshot included a stale 1,860-row Gavin profile/embedding cache.
+  The current run rebuilds the cache on the cleaned 1,848-node Gavin graph after removing spreadsheet-corrupted identifiers.
+  Weighted-degree profile scaling also changed after cleaning, but confidence labels use local module topology
+  and semantic support; the observed Core increase is explained primarily by semantic-cache rebuilding.
+
+Scientific interpretation:
+  Label distributions are sensitive to the evidence normalisation and embedding cache used to score assignments.
+  The v3.1 distribution should therefore be described as a Core-versus-non-Core triage signal rather than
+  as a smooth four-tier calibration curve.

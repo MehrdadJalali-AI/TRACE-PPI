@@ -1,0 +1,314 @@
+{
+  "gavin_cached": {
+    "seconds_mean": 6.344502486333334,
+    "seconds_sd": 0.7032192978032462,
+    "rss_mib_mean": 526.1145833333334,
+    "rss_mib_sd": 1.6810011820216944,
+    "embedding_modes": [
+      "cached:fallback_tfidf_svd"
+    ],
+    "assignments_size_ge2": [
+      1912
+    ],
+    "supplement_stats": {
+      "proteins_added": 60,
+      "modules_touched": 49,
+      "modules_rejected_size": 0,
+      "stop_gate": 0,
+      "stop_gain": 28,
+      "reject_precision": 0,
+      "stop_two_member_cap": 11,
+      "stop_relative_size_cap": 193
+    },
+    "runs": [
+      {
+        "dataset": "gavin",
+        "embeddings": "cached",
+        "seconds": 5.989119084,
+        "rss_bytes": 551272448,
+        "embedding_mode": "cached:fallback_tfidf_svd",
+        "assignments_size_ge2": 1912,
+        "supplement_stats": {
+          "proteins_added": 60,
+          "modules_touched": 49,
+          "modules_rejected_size": 0,
+          "stop_gate": 0,
+          "stop_gain": 28,
+          "reject_precision": 0,
+          "stop_two_member_cap": 11,
+          "stop_relative_size_cap": 193
+        }
+      },
+      {
+        "dataset": "gavin",
+        "embeddings": "cached",
+        "seconds": 5.88990125,
+        "rss_bytes": 550141952,
+        "embedding_mode": "cached:fallback_tfidf_svd",
+        "assignments_size_ge2": 1912,
+        "supplement_stats": {
+          "proteins_added": 60,
+          "modules_touched": 49,
+          "modules_rejected_size": 0,
+          "stop_gate": 0,
+          "stop_gain": 28,
+          "reject_precision": 0,
+          "stop_two_member_cap": 11,
+          "stop_relative_size_cap": 193
+        }
+      },
+      {
+        "dataset": "gavin",
+        "embeddings": "cached",
+        "seconds": 7.154487125,
+        "rss_bytes": 553598976,
+        "embedding_mode": "cached:fallback_tfidf_svd",
+        "assignments_size_ge2": 1912,
+        "supplement_stats": {
+          "proteins_added": 60,
+          "modules_touched": 49,
+          "modules_rejected_size": 0,
+          "stop_gate": 0,
+          "stop_gain": 28,
+          "reject_precision": 0,
+          "stop_two_member_cap": 11,
+          "stop_relative_size_cap": 193
+        }
+      }
+    ]
+  },
+  "gavin_rebuild": {
+    "seconds_mean": 6.691839888666666,
+    "seconds_sd": 0.3733304717736733,
+    "rss_mib_mean": 546.9114583333334,
+    "rss_mib_sd": 1.4457417718366352,
+    "embedding_modes": [
+      "fallback_tfidf_svd"
+    ],
+    "assignments_size_ge2": [
+      1912
+    ],
+    "supplement_stats": {
+      "proteins_added": 60,
+      "modules_touched": 49,
+      "modules_rejected_size": 0,
+      "stop_gate": 0,
+      "stop_gain": 28,
+      "reject_precision": 0,
+      "stop_two_member_cap": 11,
+      "stop_relative_size_cap": 193
+    },
+    "runs": [
+      {
+        "dataset": "gavin",
+        "embeddings": "rebuild",
+        "seconds": 7.122453833000001,
+        "rss_bytes": 575127552,
+        "embedding_mode": "fallback_tfidf_svd",
+        "assignments_size_ge2": 1912,
+        "supplement_stats": {
+          "proteins_added": 60,
+          "modules_touched": 49,
+          "modules_rejected_size": 0,
+          "stop_gate": 0,
+          "stop_gain": 28,
+          "reject_precision": 0,
+          "stop_two_member_cap": 11,
+          "stop_relative_size_cap": 193
+        }
+      },
+      {
+        "dataset": "gavin",
+        "embeddings": "rebuild",
+        "seconds": 6.493978958,
+        "rss_bytes": 573161472,
+        "embedding_mode": "fallback_tfidf_svd",
+        "assignments_size_ge2": 1912,
+        "supplement_stats": {
+          "proteins_added": 60,
+          "modules_touched": 49,
+          "modules_rejected_size": 0,
+          "stop_gate": 0,
+          "stop_gain": 28,
+          "reject_precision": 0,
+          "stop_two_member_cap": 11,
+          "stop_relative_size_cap": 193
+        }
+      },
+      {
+        "dataset": "gavin",
+        "embeddings": "rebuild",
+        "seconds": 6.459086875,
+        "rss_bytes": 572145664,
+        "embedding_mode": "fallback_tfidf_svd",
+        "assignments_size_ge2": 1912,
+        "supplement_stats": {
+          "proteins_added": 60,
+          "modules_touched": 49,
+          "modules_rejected_size": 0,
+          "stop_gate": 0,
+          "stop_gain": 28,
+          "reject_precision": 0,
+          "stop_two_member_cap": 11,
+          "stop_relative_size_cap": 193
+        }
+      }
+    ]
+  },
+  "krogan_cached": {
+    "seconds_mean": 19.832953666666665,
+    "seconds_sd": 0.2046599203236691,
+    "rss_mib_mean": 1221.4375,
+    "rss_mib_sd": 1.6020768990984795,
+    "embedding_modes": [
+      "cached:fallback_tfidf_svd"
+    ],
+    "assignments_size_ge2": [
+      2821
+    ],
+    "supplement_stats": {
+      "proteins_added": 95,
+      "modules_touched": 77,
+      "modules_rejected_size": 0,
+      "stop_gate": 0,
+      "stop_gain": 28,
+      "reject_precision": 0,
+      "stop_two_member_cap": 18,
+      "stop_relative_size_cap": 441
+    },
+    "runs": [
+      {
+        "dataset": "krogan",
+        "embeddings": "cached",
+        "seconds": 19.846666416999998,
+        "rss_bytes": 1279066112,
+        "embedding_mode": "cached:fallback_tfidf_svd",
+        "assignments_size_ge2": 2821,
+        "supplement_stats": {
+          "proteins_added": 95,
+          "modules_touched": 77,
+          "modules_rejected_size": 0,
+          "stop_gate": 0,
+          "stop_gain": 28,
+          "reject_precision": 0,
+          "stop_two_member_cap": 18,
+          "stop_relative_size_cap": 441
+        }
+      },
+      {
+        "dataset": "krogan",
+        "embeddings": "cached",
+        "seconds": 19.621782208,
+        "rss_bytes": 1280819200,
+        "embedding_mode": "cached:fallback_tfidf_svd",
+        "assignments_size_ge2": 2821,
+        "supplement_stats": {
+          "proteins_added": 95,
+          "modules_touched": 77,
+          "modules_rejected_size": 0,
+          "stop_gate": 0,
+          "stop_gain": 28,
+          "reject_precision": 0,
+          "stop_two_member_cap": 18,
+          "stop_relative_size_cap": 441
+        }
+      },
+      {
+        "dataset": "krogan",
+        "embeddings": "cached",
+        "seconds": 20.030412375,
+        "rss_bytes": 1282424832,
+        "embedding_mode": "cached:fallback_tfidf_svd",
+        "assignments_size_ge2": 2821,
+        "supplement_stats": {
+          "proteins_added": 95,
+          "modules_touched": 77,
+          "modules_rejected_size": 0,
+          "stop_gate": 0,
+          "stop_gain": 28,
+          "reject_precision": 0,
+          "stop_two_member_cap": 18,
+          "stop_relative_size_cap": 441
+        }
+      }
+    ]
+  },
+  "krogan_rebuild": {
+    "seconds_mean": 20.17280308333333,
+    "seconds_sd": 0.3317569431347748,
+    "rss_mib_mean": 1246.7604166666667,
+    "rss_mib_sd": 2.2828190950737497,
+    "embedding_modes": [
+      "fallback_tfidf_svd"
+    ],
+    "assignments_size_ge2": [
+      2821
+    ],
+    "supplement_stats": {
+      "proteins_added": 95,
+      "modules_touched": 77,
+      "modules_rejected_size": 0,
+      "stop_gate": 0,
+      "stop_gain": 28,
+      "reject_precision": 0,
+      "stop_two_member_cap": 18,
+      "stop_relative_size_cap": 441
+    },
+    "runs": [
+      {
+        "dataset": "krogan",
+        "embeddings": "rebuild",
+        "seconds": 19.797926375,
+        "rss_bytes": 1304559616,
+        "embedding_mode": "fallback_tfidf_svd",
+        "assignments_size_ge2": 2821,
+        "supplement_stats": {
+          "proteins_added": 95,
+          "modules_touched": 77,
+          "modules_rejected_size": 0,
+          "stop_gate": 0,
+          "stop_gain": 28,
+          "reject_precision": 0,
+          "stop_two_member_cap": 18,
+          "stop_relative_size_cap": 441
+        }
+      },
+      {
+        "dataset": "krogan",
+        "embeddings": "rebuild",
+        "seconds": 20.4285295,
+        "rss_bytes": 1308655616,
+        "embedding_mode": "fallback_tfidf_svd",
+        "assignments_size_ge2": 2821,
+        "supplement_stats": {
+          "proteins_added": 95,
+          "modules_touched": 77,
+          "modules_rejected_size": 0,
+          "stop_gate": 0,
+          "stop_gain": 28,
+          "reject_precision": 0,
+          "stop_two_member_cap": 18,
+          "stop_relative_size_cap": 441
+        }
+      },
+      {
+        "dataset": "krogan",
+        "embeddings": "rebuild",
+        "seconds": 20.291953375,
+        "rss_bytes": 1308753920,
+        "embedding_mode": "fallback_tfidf_svd",
+        "assignments_size_ge2": 2821,
+        "supplement_stats": {
+          "proteins_added": 95,
+          "modules_touched": 77,
+          "modules_rejected_size": 0,
+          "stop_gate": 0,
+          "stop_gain": 28,
+          "reject_precision": 0,
+          "stop_two_member_cap": 18,
+          "stop_relative_size_cap": 441
+        }
+      }
+    ]
+  }
+}

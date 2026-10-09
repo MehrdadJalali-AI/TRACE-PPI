@@ -1,0 +1,9 @@
+baseline,status,implementation,note
+MCL,run,local Python/markov_clustering fallback,Core hard-partition baseline.
+MCL+overlap,run,local permanence + GO TF-IDF heuristic,Core overlap heuristic.
+SLPA,run,local deterministic-seeded implementation,Overlapping label-propagation baseline; should be replaced by a vetted package for final submission.
+CFinder/clique percolation,run_or_size-skipped,NetworkX k_clique_communities,k=3 feasible on available local networks under edge cap.
+Link communities,run_or_size-skipped,line graph + greedy modularity,Skipped for graphs exceeding line-graph cap.
+ClusterONE,proxy_only,ClusterONE-like greedy local growth,Exact ClusterONE binary not installed; proxy is not a publishable replacement.
+OSLOM,not_run,none,OSLOM binary not found and network install is restricted.
+BIGCLAM,not_run,none,Snap/BIGCLAM implementation not installed; requires external dependency acquisition.

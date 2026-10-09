@@ -1,0 +1,7 @@
+{
+  "dataset": "gavin",
+  "embedding_backend": "fallback_tfidf_svd",
+  "embedding_dim": 64,
+  "n_proteins": 1848,
+  "cache_status": "rebuilt"
+}

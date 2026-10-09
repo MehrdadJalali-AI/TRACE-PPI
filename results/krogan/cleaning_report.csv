@@ -1,0 +1,2 @@
+dataset,source_file,publication_filter,raw_biogrid_rows,publication_rows,physical_yeast_rows,invalid_identifier_rows,self_loops_removed,duplicate_edges_removed,clean_nodes,clean_edges,edge_weight_policy,go_nodes_with_nongeneric_terms,go_coverage
+krogan,./data/biogrid_scerivise.tab3.txt,PUBMED:16554755,869229,7079,7079,3,4,0,2671,7072,"numeric BioGRID Score when available, otherwise 1.0",2652,0.9928865593410707

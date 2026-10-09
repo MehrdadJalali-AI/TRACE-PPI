@@ -1,0 +1,19 @@
+{
+  "timestamp_local": "2026-05-19 09:50:41 CEST",
+  "python": "3.9.6 (default, Dec  2 2025, 07:27:58) \n[Clang 17.0.0 (clang-1700.6.3.2)]",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "processor": "arm",
+  "cwd": ".",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "commands": [
+    "python3 scripts/high_rank_rerun.py",
+    "cd manuscript/high_rank_version && pdflatex -interaction=nonstopmode -halt-on-error trace_ppi_high_rank.tex && bibtex trace_ppi_high_rank && pdflatex -interaction=nonstopmode -halt-on-error trace_ppi_high_rank.tex && pdflatex -interaction=nonstopmode -halt-on-error trace_ppi_high_rank.tex"
+  ],
+  "notes": "Network access was not used; unavailable datasets/baselines are explicitly marked in feasibility tables."
+}

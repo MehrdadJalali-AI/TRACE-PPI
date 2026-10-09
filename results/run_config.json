@@ -1,0 +1,37 @@
+{
+  "dataset": "gavin",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "jaccard_threshold": 0.5,
+  "clusterone_status": {
+    "baseline": "ClusterONE",
+    "status": "exact_included",
+    "reason": "Official ClusterONE 1.0 JAR completed successfully.",
+    "jar": "./tools/clusterone/cluster_one-1.0.jar",
+    "dataset": "gavin",
+    "n_modules": 228
+  },
+  "slpa": {
+    "thresholds": [
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "iterations": 100,
+    "seed": 42
+  },
+  "embedding_mode_observed": "cached:fallback_tfidf_svd",
+  "embedding_meta": {
+    "dataset": "gavin",
+    "embedding_backend": "fallback_tfidf_svd",
+    "embedding_dim": 64,
+    "n_proteins": 1848,
+    "cache_status": "rebuilt"
+  }
+}
