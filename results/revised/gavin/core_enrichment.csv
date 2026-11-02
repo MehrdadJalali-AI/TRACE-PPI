@@ -1,0 +1,2 @@
+dataset,method,core_supported,core_total,noncore_supported,noncore_total,core_fraction,noncore_fraction,odds_ratio,fisher_p_descriptive,or_ci_low,or_ci_high
+gavin,TRACE-PPI,603,1344,87,550,0.4486607142857143,0.15818181818181817,4.330727348876169,2.8215985805843696e-35,2.6583456487216734,9.584711804892942

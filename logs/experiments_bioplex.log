@@ -1,0 +1,76 @@
+TRACE-PPI (full)                                        F1=0.062 mF1=0.241 n=2251
+TRACE-PPI without deconvolution                         F1=0.062 mF1=0.241 n=2251
+TRACE-PPI topology-only heterogeneity                   F1=0.062 mF1=0.241 n=2252
+TRACE-PPI global admission threshold                    F1=0.062 mF1=0.241 n=2251
+TRACE-PPI seed-and-expand only                          F1=0.064 mF1=0.242 n=2292
+TRACE-PPI spectral only                                 F1=0.065 mF1=0.242 n=2308
+TRACE-PPI without supplementation                       F1=0.061 mF1=0.235 n=2251
+TRACE-PPI without semantic/GO evidence                  F1=0.065 mF1=0.248 n=2224
+MCL (I=2.0)                                             F1=0.062 mF1=0.239 n=2362
+MCL binary not found. Trying Python markov_clustering.
+MCL + overlap                       F1=0.035 mF1=0.190 n=1828
+MCL binary not found. Trying Python markov_clustering.
+MCL + overlap + supplementation                                       F1=0.036 mF1=0.196 n=1828
+GE (reimplementation of Jeong et al.)                   F1=0.014 mF1=0.027 n=142
+Tuned MCL (I=3.0, selected on Gavin)                    F1=0.063 mF1=0.248 n=3087
+SLPA (t=0.05, selected on Gavin)                        F1=0.005 mF1=0.030 n=139
+ClusterONE (default)                                    F1=0.027 mF1=0.220 n=3314
+ClusterONE (d=default, selected on Gavin)               F1=0.027 mF1=0.220 n=3314
+TRACE-PPI from tuned MCL seed (I=3.0; sensitivity)      F1=0.061 mF1=0.243 n=3008
+stability rate=0.1 reps=20 mean=0.735
+TRACE-PPI with stability gate (diagnostic)              F1=0.065 mF1=0.232 n=2134
+sens mcl.inflation=1.4: F1=0.017 mF1=0.093
+sens mcl.inflation=1.6: F1=0.044 mF1=0.180
+sens mcl.inflation=1.8: F1=0.052 mF1=0.215
+sens mcl.inflation=2.5: F1=0.063 mF1=0.251
+sens mcl.inflation=3.0: F1=0.061 mF1=0.243
+sens mcl.inflation=4.0: F1=0.056 mF1=0.225
+sens heterogeneity.quantile=0.5: F1=0.062 mF1=0.241
+sens heterogeneity.quantile=0.65: F1=0.062 mF1=0.241
+sens heterogeneity.quantile=0.85: F1=0.062 mF1=0.241
+sens heterogeneity.quantile=0.9: F1=0.062 mF1=0.241
+sens heterogeneity.min_votes=1: F1=0.062 mF1=0.241
+sens heterogeneity.min_votes=3: F1=0.062 mF1=0.241
+sens decomposition.lambda_separation=0.0: F1=0.063 mF1=0.241
+sens decomposition.lambda_separation=0.25: F1=0.062 mF1=0.241
+sens decomposition.lambda_separation=1.0: F1=0.062 mF1=0.241
+sens decomposition.lambda_fragmentation=0.0: F1=0.064 mF1=0.241
+sens decomposition.lambda_fragmentation=0.1: F1=0.063 mF1=0.241
+sens decomposition.lambda_fragmentation=0.5: F1=0.062 mF1=0.241
+sens decomposition.min_improvement=0.0: F1=0.062 mF1=0.241
+sens decomposition.min_improvement=0.05: F1=0.062 mF1=0.241
+sens assignment.quantile=0.1: F1=0.062 mF1=0.241
+sens assignment.quantile=0.4: F1=0.062 mF1=0.241
+sens assignment.quantile=0.5: F1=0.062 mF1=0.241
+sens assignment.weights={'topology': 0.35, 'semantic': 0.4136, 'go': 0.2364}: F1=0.062 mF1=0.241
+sens assignment.weights={'topology': 0.55, 'semantic': 0.2864, 'go': 0.1636}: F1=0.062 mF1=0.241
+sens assignment.weights={'topology': 0.5192, 'semantic': 0.25, 'go': 0.2308}: F1=0.062 mF1=0.241
+sens assignment.weights={'topology': 0.3808, 'semantic': 0.45, 'go': 0.1692}: F1=0.062 mF1=0.241
+sens assignment.weights={'topology': 0.5062, 'semantic': 0.3937, 'go': 0.1}: F1=0.062 mF1=0.241
+sens assignment.weights={'topology': 0.3937, 'semantic': 0.3062, 'go': 0.3}: F1=0.062 mF1=0.241
+sens assignment.guard_min_channel=0.0: F1=0.062 mF1=0.239
+sens assignment.guard_min_channel=0.2: F1=0.063 mF1=0.242
+sens assignment.guard_min_channel=0.25: F1=0.063 mF1=0.242
+sens assignment.guard_min_neighbours=0: F1=0.064 mF1=0.243
+sens supplementation.min_evidence_score=0.304: F1=0.062 mF1=0.241
+sens supplementation.min_evidence_score=0.456: F1=0.063 mF1=0.242
+sens supplementation.max_extra_members_per_module=0: F1=0.061 mF1=0.235
+sens supplementation.max_extra_members_per_module=4: F1=0.062 mF1=0.241
+     1941.87 real      1305.35 user        54.16 sys
+         10163339264  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+            15134793  page reclaims
+                2572  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                  10  signals received
+                 786  voluntary context switches
+              792401  involuntary context switches
+      12631925243327  instructions retired
+       4474004829757  cycles elapsed
+         17134777208  peak memory footprint

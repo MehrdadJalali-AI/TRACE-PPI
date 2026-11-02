@@ -1,0 +1,4 @@
+region_id,rate,split_recovery
+25,0.05,0.5
+25,0.1,0.5
+25,0.2,0.3

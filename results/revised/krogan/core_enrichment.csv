@@ -1,0 +1,2 @@
+dataset,method,core_supported,core_total,noncore_supported,noncore_total,core_fraction,noncore_fraction,odds_ratio,fisher_p_descriptive,or_ci_low,or_ci_high
+krogan,TRACE-PPI,687,1561,118,1149,0.44010249839846255,0.10269799825935597,6.867868362874763,1.473589180660941e-87,4.4745860378384945,10.604199016396649

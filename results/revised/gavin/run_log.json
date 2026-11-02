@@ -1,0 +1,41 @@
+{
+  "dataset": "gavin",
+  "started": "2026-11-02T19:49:13",
+  "config_hash": "2df8e51cc789",
+  "load_seconds": 3.240629196166992,
+  "dataset_meta": {
+    "dataset": "gavin",
+    "inputs": {
+      "ppi": "gavin2006_socioaffinities_rescaled.txt",
+      "go": "GO.txt"
+    },
+    "go_filter": {
+      "rows": 214042,
+      "kept": 213964,
+      "excluded_cites_reference_identifier": 46,
+      "not_qualifier": 32
+    },
+    "nodes": 1848,
+    "edges": 7578,
+    "annotated_nodes": 1834,
+    "embedding_backend": "tfidf_svd_64_l2"
+  },
+  "reference": {
+    "reference": "EBI Complex Portal, S. cerevisiae (610-complex frozen file)",
+    "file": "complexportal_yeast_610.csv",
+    "n_complexes": 610
+  },
+  "baseline_selection_from_gavin": {
+    "mcl_inflation": 3.0,
+    "slpa_threshold": 0.05,
+    "clusterone_density": "default"
+  },
+  "finished": "2026-11-02T19:50:34",
+  "peak_rss_mb_process": 529.515625,
+  "input_sha256": {
+    "gavin_ppi": "597e3c0dda3925856431ff3173742ff7be9aa2ade3b769e7d80d266c01e03464",
+    "biogrid": "c2ec69900fbcc6ac26dbb85b68e10130b4cf0e9ef382302fef74e6d523501e38",
+    "sgd_gaf": "c767e15e09ccb803e5e839363f29f11f9a1709b40f9c07a1352cdccac965d376",
+    "yeast_reference": "4bb68155ca93becd7b59c1b85f1b9d95402cb62ac22d0fa6c9c235b13e6617e7"
+  }
+}

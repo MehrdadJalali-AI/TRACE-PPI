@@ -1,0 +1,47 @@
+{
+  "dataset": "bioplex",
+  "started": "2026-11-02T19:49:13",
+  "config_hash": "2df8e51cc789",
+  "load_seconds": 7.619031190872192,
+  "dataset_meta": {
+    "dataset": "bioplex",
+    "cleaning": {
+      "rows": 118162
+    },
+    "go_filter": {
+      "rows": 906445,
+      "kept": 877228,
+      "not_qualifier": 1501,
+      "excluded_assigned_by_reference_curator": 27525,
+      "excluded_cites_reference_identifier": 191
+    },
+    "inputs": {
+      "ppi": "BioPlex_293T_Network_10K_Dec_2019.tsv",
+      "go": "goa_human.gaf.gz"
+    },
+    "nodes": 13957,
+    "edges": 118162,
+    "annotated_nodes": 13230,
+    "embedding_backend": "tfidf_svd_64_l2"
+  },
+  "reference": {
+    "reference": "EBI Complex Portal, Homo sapiens (curated, non-predicted)",
+    "file": "9606.tsv",
+    "n_complexes": 2267,
+    "member_mapped": 8829,
+    "member_not_in_network": 948,
+    "complexes_lt2_proteins": 266
+  },
+  "baseline_selection_from_gavin": {
+    "mcl_inflation": 3.0,
+    "slpa_threshold": 0.05,
+    "clusterone_density": "default"
+  },
+  "finished": "2026-11-02T20:21:33",
+  "peak_rss_mb_process": 9692.515625,
+  "input_sha256": {
+    "bioplex": "5a98def087fc77c7bf07aac79e2553fd64ea1a27a7d0c4617870476f3f120833",
+    "goa_human": "db472faff1785878521693af62646546cea6af4a386609dd01c72c0554a46a30",
+    "complexportal_human": "f9e977e0cce4f518de066eb267c70cabc2f8c1e659cfc1c164fbee41d4380d53"
+  }
+}

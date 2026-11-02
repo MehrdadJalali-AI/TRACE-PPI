@@ -1,0 +1,509 @@
+{
+ "10.3390/e23101271": {
+  "title": "Entropy-Based Graph Clustering of PPI Networks for Predicting Overlapping Functional Modules of Proteins",
+  "journal": "Entropy",
+  "short": "Entropy",
+  "year": 2021,
+  "vol": "23",
+  "issue": "10",
+  "page": "1271",
+  "authors": [
+   [
+    "Jeong",
+    "Hoyeon"
+   ],
+   [
+    "Kim",
+    "Yoonbee"
+   ],
+   [
+    "Jung",
+    "Yi-Sue"
+   ],
+   [
+    "Kang",
+    "Dae Ryong"
+   ],
+   [
+    "Cho",
+    "Young-Rae"
+   ]
+  ]
+ },
+ "10.1002/pmic.201100193": {
+  "title": "Detecting protein complexes and functional modules from protein interaction networks: A graph entropy approach",
+  "journal": "PROTEOMICS",
+  "short": "Proteomics",
+  "year": 2011,
+  "vol": "11",
+  "issue": "19",
+  "page": "3835-3844",
+  "authors": [
+   [
+    "Kenley",
+    "Edward Casey"
+   ],
+   [
+    "Cho",
+    "Young\u2010Rae"
+   ]
+  ]
+ },
+ "10.1093/bioinformatics/bts370": {
+  "title": "Identifying functional modules in interaction networks through overlapping Markov clustering",
+  "journal": "Bioinformatics",
+  "short": "",
+  "year": 2012,
+  "vol": "28",
+  "issue": "18",
+  "page": "i473-i479",
+  "authors": [
+   [
+    "Shih",
+    "Yu-Keng"
+   ],
+   [
+    "Parthasarathy",
+    "Srinivasan"
+   ]
+  ]
+ },
+ "10.1002/pmic.200600636": {
+  "title": "Identifying functional modules in the physical interactome of <b><i>Saccharomyces cerevisiae</i></b>",
+  "journal": "PROTEOMICS",
+  "short": "Proteomics",
+  "year": 2007,
+  "vol": "7",
+  "issue": "6",
+  "page": "944-960",
+  "authors": [
+   [
+    "Pu",
+    "Shuye"
+   ],
+   [
+    "Vlasblom",
+    "Jim"
+   ],
+   [
+    "Emili",
+    "Andrew"
+   ],
+   [
+    "Greenblatt",
+    "Jack"
+   ],
+   [
+    "Wodak",
+    "Shoshana J."
+   ]
+  ]
+ },
+ "10.1089/cmb.2009.0023": {
+  "title": "Bootstrapping the Interactome: Unsupervised Identification of Protein Complexes in Yeast",
+  "journal": "Journal of Computational Biology",
+  "short": "Journal of Computational Biology",
+  "year": 2009,
+  "vol": "16",
+  "issue": "8",
+  "page": "971-987",
+  "authors": [
+   [
+    "Friedel",
+    "Caroline C."
+   ],
+   [
+    "Krumsiek",
+    "Jan"
+   ],
+   [
+    "Zimmer",
+    "Ralf"
+   ]
+  ]
+ },
+ "10.1093/bioinformatics/bth351": {
+  "title": "Protein complex prediction via cost-based clustering",
+  "journal": "Bioinformatics",
+  "short": "",
+  "year": 2004,
+  "vol": "20",
+  "issue": "17",
+  "page": "3013-3020",
+  "authors": [
+   [
+    "King",
+    "A. D."
+   ],
+   [
+    "Pr\u017eulj",
+    "N."
+   ],
+   [
+    "Jurisica",
+    "I."
+   ]
+  ]
+ },
+ "10.21136/CMJ.1973.101168": {
+  "title": "Algebraic connectivity of graphs",
+  "journal": "Czechoslovak Mathematical Journal",
+  "short": "Czech. Math. J.",
+  "year": 1973,
+  "vol": "23",
+  "issue": "2",
+  "page": "298-305",
+  "authors": [
+   [
+    "Fiedler",
+    "Miroslav"
+   ]
+  ]
+ },
+ "10.1007/s11222-007-9033-z": {
+  "title": "A tutorial on spectral clustering",
+  "journal": "Statistics and Computing",
+  "short": "Stat Comput",
+  "year": 2007,
+  "vol": "17",
+  "issue": "4",
+  "page": "395-416",
+  "authors": [
+   [
+    "von Luxburg",
+    "Ulrike"
+   ]
+  ]
+ },
+ "10.1103/PhysRevE.70.066111": {
+  "title": "Finding community structure in very large networks",
+  "journal": "Physical Review E",
+  "short": "Phys. Rev. E",
+  "year": 2004,
+  "vol": "70",
+  "issue": "6",
+  "page": "066111",
+  "authors": [
+   [
+    "Clauset",
+    "Aaron"
+   ],
+   [
+    "Newman",
+    "M. E. J."
+   ],
+   [
+    "Moore",
+    "Cristopher"
+   ]
+  ]
+ },
+ "10.1093/nar/gkr1029": {
+  "title": "Saccharomyces Genome Database: the genomics resource of budding yeast",
+  "journal": "Nucleic Acids Research",
+  "short": "Nucleic Acids Research",
+  "year": 2011,
+  "vol": "40",
+  "issue": "D1",
+  "page": "D700-D705",
+  "authors": [
+   [
+    "Cherry",
+    "J. M."
+   ],
+   [
+    "Hong",
+    "E. L."
+   ],
+   [
+    "Amundsen",
+    "C."
+   ],
+   [
+    "Balakrishnan",
+    "R."
+   ],
+   [
+    "Binkley",
+    "G."
+   ],
+   [
+    "Chan",
+    "E. T."
+   ],
+   [
+    "Christie",
+    "K. R."
+   ],
+   [
+    "Costanzo",
+    "M. C."
+   ],
+   [
+    "Dwight",
+    "S. S."
+   ],
+   [
+    "Engel",
+    "S. R."
+   ],
+   [
+    "Fisk",
+    "D. G."
+   ],
+   [
+    "Hirschman",
+    "J. E."
+   ],
+   [
+    "Hitz",
+    "B. C."
+   ],
+   [
+    "Karra",
+    "K."
+   ],
+   [
+    "Krieger",
+    "C. J."
+   ],
+   [
+    "Miyasato",
+    "S. R."
+   ],
+   [
+    "Nash",
+    "R. S."
+   ],
+   [
+    "Park",
+    "J."
+   ],
+   [
+    "Skrzypek",
+    "M. S."
+   ],
+   [
+    "Simison",
+    "M."
+   ],
+   [
+    "Weng",
+    "S."
+   ],
+   [
+    "Wong",
+    "E. D."
+   ]
+  ]
+ },
+ "10.1093/nar/gku1113": {
+  "title": "The GOA database: Gene Ontology annotation updates for 2015",
+  "journal": "Nucleic Acids Research",
+  "short": "",
+  "year": 2014,
+  "vol": "43",
+  "issue": "D1",
+  "page": "D1057-D1063",
+  "authors": [
+   [
+    "Huntley",
+    "Rachael P."
+   ],
+   [
+    "Sawford",
+    "Tony"
+   ],
+   [
+    "Mutowo-Meullenet",
+    "Prudence"
+   ],
+   [
+    "Shypitsyna",
+    "Aleksandra"
+   ],
+   [
+    "Bonilla",
+    "Carlos"
+   ],
+   [
+    "Martin",
+    "Maria J."
+   ],
+   [
+    "O'Donovan",
+    "Claire"
+   ]
+  ]
+ },
+ "10.1093/nar/gkac1032": {
+  "title": "Database resources of the National Center for Biotechnology Information in 2023",
+  "journal": "Nucleic Acids Research",
+  "short": "",
+  "year": 2022,
+  "vol": "51",
+  "issue": "D1",
+  "page": "D29-D38",
+  "authors": [
+   [
+    "Sayers",
+    "Eric W"
+   ],
+   [
+    "Bolton",
+    "Evan E"
+   ],
+   [
+    "Brister",
+    "J\u00a0Rodney"
+   ],
+   [
+    "Canese",
+    "Kathi"
+   ],
+   [
+    "Chan",
+    "Jessica"
+   ],
+   [
+    "Comeau",
+    "Donald\u00a0C"
+   ],
+   [
+    "Farrell",
+    "Catherine\u00a0M"
+   ],
+   [
+    "Feldgarden",
+    "Michael"
+   ],
+   [
+    "Fine",
+    "Anna M"
+   ],
+   [
+    "Funk",
+    "Kathryn"
+   ],
+   [
+    "Hatcher",
+    "Eneida"
+   ],
+   [
+    "Kannan",
+    "Sivakumar"
+   ],
+   [
+    "Kelly",
+    "Christopher"
+   ],
+   [
+    "Kim",
+    "Sunghwan"
+   ],
+   [
+    "Klimke",
+    "William"
+   ],
+   [
+    "Landrum",
+    "Melissa\u00a0J"
+   ],
+   [
+    "Lathrop",
+    "Stacy"
+   ],
+   [
+    "Lu",
+    "Zhiyong"
+   ],
+   [
+    "Madden",
+    "Thomas\u00a0L"
+   ],
+   [
+    "Malheiro",
+    "Adriana"
+   ],
+   [
+    "Marchler-Bauer",
+    "Aron"
+   ],
+   [
+    "Murphy",
+    "Terence\u00a0D"
+   ],
+   [
+    "Phan",
+    "Lon"
+   ],
+   [
+    "Pujar",
+    "Shashikant"
+   ],
+   [
+    "Rangwala",
+    "Sanjida\u00a0H"
+   ],
+   [
+    "Schneider",
+    "Valerie\u00a0A"
+   ],
+   [
+    "Tse",
+    "Tony"
+   ],
+   [
+    "Wang",
+    "Jiyao"
+   ],
+   [
+    "Ye",
+    "Jian"
+   ],
+   [
+    "Trawick",
+    "Barton\u00a0W"
+   ],
+   [
+    "Pruitt",
+    "Kim\u00a0D"
+   ],
+   [
+    "Sherry",
+    "Stephen\u00a0T"
+   ]
+  ]
+ },
+ "10.1186/1471-2105-7-207": {
+  "title": "Development and implementation of an algorithm for detection of protein complexes in large interaction networks",
+  "journal": "BMC Bioinformatics",
+  "short": "BMC Bioinformatics",
+  "year": 2006,
+  "vol": "7",
+  "issue": "1",
+  "page": "207",
+  "authors": [
+   [
+    "Altaf-Ul-Amin",
+    "Md"
+   ],
+   [
+    "Shinbo",
+    "Yoko"
+   ],
+   [
+    "Mihara",
+    "Kenji"
+   ],
+   [
+    "Kurokawa",
+    "Ken"
+   ],
+   [
+    "Kanaya",
+    "Shigehiko"
+   ]
+  ]
+ }
+}

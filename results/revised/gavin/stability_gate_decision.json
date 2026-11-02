@@ -1,0 +1,8 @@
+{
+  "dataset": "gavin",
+  "precision_gain": 0.008952790981260783,
+  "f1_change": 0.0021129691787422633,
+  "coverage_change": -0.04112554112554112,
+  "rule_satisfied": false,
+  "is_decision_dataset": true
+}

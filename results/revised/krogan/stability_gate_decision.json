@@ -1,0 +1,8 @@
+{
+  "dataset": "krogan",
+  "precision_gain": 0.011210630961797419,
+  "f1_change": -0.006854076058258107,
+  "coverage_change": -0.03781355297641342,
+  "rule_satisfied": false,
+  "is_decision_dataset": false
+}

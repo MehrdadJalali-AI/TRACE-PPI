@@ -1,0 +1,173 @@
+[
+ {
+  "dataset": "gavin",
+  "case": "C1 split region",
+  "region_id": 25,
+  "region_size": 22,
+  "topology": 0.4684979820114955,
+  "semantic": 0.3845297429989923,
+  "support": 0.380952380952381,
+  "votes": 2,
+  "flagged": true,
+  "split": true,
+  "contained_reference": "CPX-1053;CPX-1230;CPX-1249;CPX-1260;CPX-1266;CPX-1705;CPX-36",
+  "n_contained": 7,
+  "region_best_jaccard": 0.6818181818181818,
+  "alternatives": [
+   {
+    "alternative": "no_split",
+    "k": 1,
+    "coherence": 0.559,
+    "separation_penalty": 0.0,
+    "fragmentation_penalty": 0.0,
+    "Q": 0.559,
+    "selected": false
+   },
+   {
+    "alternative": "spectral",
+    "k": 2,
+    "coherence": 0.786,
+    "separation_penalty": 0.273,
+    "fragmentation_penalty": 0.167,
+    "Q": 0.608,
+    "selected": true
+   },
+   {
+    "alternative": "seed_expand",
+    "k": 3,
+    "coherence": 0.518,
+    "separation_penalty": 0.443,
+    "fragmentation_penalty": 0.333,
+    "Q": 0.213,
+    "selected": false
+   }
+  ],
+  "pubmed": [
+   "16107882",
+   "20197406",
+   "24828508",
+   "29074584"
+  ],
+  "reference_names": {
+   "CPX-1053": "Cleavage and polyadenylation specificity factor complex",
+   "CPX-1230": "BNI4-GLC7 phosphatase complex",
+   "CPX-1249": "SDS22-GLC7 phosphatase complex",
+   "CPX-1260": "SDS22-GLC7-YPI1 phosphatase complex",
+   "CPX-1266": "REG1-GLC7 phosphatase complex",
+   "CPX-1705": "BUD14-GLC7 phosphatase complex",
+   "CPX-36": "Kelch-containing Formin Regulatory Complex"
+  },
+  "literature": {
+   "16107882": "Knaus M, Cameroni E, Pedruzzi I, Tatchell K, De Virgilio C, Peter M. The Bud14p-Glc7p complex functions as a cortical regulator of dynein in budding yeast. EMBO J 2005",
+   "20197406": "Larson JR, Kozubowski L, Tatchell K. Changes in Bni4 localization induced by cell stress in Saccharomyces cerevisiae. J Cell Sci 2010",
+   "24828508": "Gould CJ, Chesarone-Cataldo M, Alioto SL, Salin B, Sagot I, Goode BL. Saccharomyces cerevisiae Kelch proteins and Bud14 protein form a stable 520-kDa formin regulatory complex that controls actin cable assembly and cell morphogenesis. J Biol Chem 2014",
+   "29074584": "Casa\u00f1al A, Kumar A, Hill CH, Easter AD, Emsley P, Degliesposti G, Gordiyenko Y, Santhanam B, Wolf J, Wiederhold K, Dornan GL, Skehel M, Robinson CV, Passmore LA. Architecture of eukaryotic mRNA 3'-end processing machinery. Science 2017"
+  }
+ },
+ {
+  "dataset": "gavin",
+  "case": "C2 flagged, split rejected",
+  "region_id": 68,
+  "region_size": 12,
+  "topology": 0.4810671594841145,
+  "semantic": 0.5592920630432263,
+  "support": 0.2727272727272727,
+  "votes": 2,
+  "flagged": true,
+  "split": false,
+  "contained_reference": "CPX-1613;CPX-1614;CPX-1682;CPX-579",
+  "n_contained": 4,
+  "region_best_jaccard": 0.25,
+  "alternatives": [
+   {
+    "alternative": "no_split",
+    "k": 1,
+    "coherence": 0.539,
+    "separation_penalty": 0.0,
+    "fragmentation_penalty": 0.0,
+    "Q": 0.539,
+    "selected": true
+   },
+   {
+    "alternative": "spectral",
+    "k": 2,
+    "coherence": 0.752,
+    "separation_penalty": 0.273,
+    "fragmentation_penalty": 0.333,
+    "Q": 0.532,
+    "selected": false
+   },
+   {
+    "alternative": "seed_expand",
+    "k": 2,
+    "coherence": 0.697,
+    "separation_penalty": 0.489,
+    "fragmentation_penalty": 0.333,
+    "Q": 0.37,
+    "selected": false
+   }
+  ],
+  "pubmed": [
+   "206535",
+   "8626695"
+  ],
+  "reference_names": {
+   "CPX-1613": "Nucleosome, variant HTZ1-HTB1",
+   "CPX-1614": "Nucleosome, variant HTZ1-HTB2",
+   "CPX-1682": "Histone acetyltransferase B",
+   "CPX-579": "Carbamoyl-phosphate synthase arginine-specific"
+  },
+  "literature": {
+   "206535": "Pi\u00e9rard A, Schr\u00f6ter B. Structure-function relationships in the arginine pathway carbamoylphosphate synthase of Saccharomyces cerevisiae. J Bacteriol 1978",
+   "8626695": "Lim AL, Powers-Lee SG. Requirement for the carboxyl-terminal domain of Saccharomyces cerevisiae carbamoyl-phosphate synthetase. J Biol Chem 1996"
+  }
+ },
+ {
+  "dataset": "gavin",
+  "case": "C3 overmerged, not flagged",
+  "region_id": 15,
+  "region_size": 75,
+  "topology": 0.585819723807497,
+  "semantic": 0.2624676164730811,
+  "support": 0.1013513513513513,
+  "votes": 1,
+  "flagged": false,
+  "split": false,
+  "contained_reference": "CPX-112;CPX-1418;CPX-1647;CPX-1648;CPX-1651;CPX-1657;CPX-1885;CPX-1886;CPX-23;CPX-24;CPX-25;CPX-26;CPX-29;CPX-30;CPX-31;CPX-32;CPX-43;CPX-44;CPX-45;CPX-46",
+  "n_contained": 20,
+  "region_best_jaccard": 0.3720930232558139,
+  "alternatives": [],
+  "pubmed": [
+   "10369684",
+   "11720285",
+   "11804584",
+   "15075370",
+   "15547136",
+   "15840809"
+  ],
+  "reference_names": {
+   "CPX-112": "LSM1-7-PAT1 complex",
+   "CPX-1418": "Spliceosomal commitment complex",
+   "CPX-1647": "SF3B complex",
+   "CPX-1648": "SF3A complex",
+   "CPX-1651": "PRP19-associated complex",
+   "CPX-1657": "Nuclear cap-binding complex",
+   "CPX-1885": "NineTeen complex",
+   "CPX-1886": "Post-mRNA release spliceosomal complex",
+   "CPX-23": "U1 small nuclear ribonucleoprotein complex",
+   "CPX-24": "U6 small nuclear ribonucleoprotein complex",
+   "CPX-25": "U4/U6.U5 tri-small nuclear ribonucleoprotein complex",
+   "CPX-26": "U2 small nuclear ribonucleoprotein complex",
+   "CPX-29": "U5 small nuclear ribonucleoprotein complex",
+   "CPX-30": "U5 small nuclear ribonucleoprotein complex, AAR2 variant",
+   "CPX-31": "U4 small nuclear ribonucleoprotein complex",
+   "CPX-32": "U4/U6 small nuclear ribonucleoprotein complex",
+   "CPX-43": "Sm complex",
+   "CPX-44": "LSM2-8 complex",
+   "CPX-45": "LSM1-7 complex",
+   "CPX-46": "LSM2-7 complex"
+  },
+  "literature": {
+   "10369684": "Salgado-Garrido J, Bragado-Nilsson E, Kandels-Lewis S, S\u00e9raphin B. Sm and Sm-like proteins assemble in two related complexes of deep evolutionary origin. EMBO J 1999",
+   "11720285": "Gottschalk A, Kastner B, L\u00fchrmann R, Fabrizio P. The yeast U5 snRNP coisolated with the U1 snRNP has an unexpected protein composition and includes the splicing factor Aar2p. RNA 2001",
+   "11804584": "Stevens SW,

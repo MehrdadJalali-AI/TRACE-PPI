@@ -1,0 +1,8 @@
+{
+  "dataset": "bioplex",
+  "precision_gain": 0.020707011442394507,
+  "f1_change": -0.009409669041790747,
+  "coverage_change": -0.10603997993838221,
+  "rule_satisfied": false,
+  "is_decision_dataset": false
+}

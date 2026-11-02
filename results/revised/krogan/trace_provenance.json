@@ -1,0 +1,55 @@
+{
+  "method": "TRACE-PPI",
+  "version": "1.0.0",
+  "dataset": "krogan",
+  "config_hash": "2df8e51cc789",
+  "variant": {
+    "deconvolution": true,
+    "heterogeneity_signals": null,
+    "forced": null,
+    "threshold_mode": null,
+    "guard": true,
+    "supplementation": null
+  },
+  "random_seed": 42,
+  "mcl": {
+    "inflation": 2.0,
+    "expansion": 2,
+    "self_loop_value": 1.0,
+    "weighted": false,
+    "fallback": "none",
+    "converged": true,
+    "n_regions": 632,
+    "n_singletons": 37,
+    "max_region": 46
+  },
+  "heterogeneity_thresholds": {
+    "topology": 0.4166666666666667,
+    "semantic": 0.5319093406610311,
+    "support": 0.27941176470588236
+  },
+  "theta_global": 0.3937803551925096,
+  "supplementation_stats": {
+    "proteins_added": 96,
+    "modules_touched": 77,
+    "stop_gate": 0,
+    "stop_gain": 20,
+    "reject_precision": 0
+  },
+  "timing_seconds": {
+    "mcl": 0.7525291442871094,
+    "heterogeneity": 0.17538213729858398,
+    "decomposition": 0.03371310234069824,
+    "assignment": 0.05991506576538086,
+    "supplementation": 0.10831809043884277,
+    "final_recompute": 0.05879974365234375,
+    "total": 1.2015190124511719
+  },
+  "python": "3.9.6",
+  "networkx": "3.2.1",
+  "numpy": "2.0.2",
+  "pandas": "2.2.3",
+  "graph_nodes": 2671,
+  "graph_edges": 7072,
+  "embedding_backend": "tfidf_svd_64_l2"
+}

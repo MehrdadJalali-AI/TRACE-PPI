@@ -1,21 +1,20 @@
 # TRACE-PPI frozen configuration (IDT revision).
 # Every value below was fixed before TRACE-PPI was evaluated against any reference
-# complex set; this file was committed before the first evaluation run.  Values that
-# are inherited from the original ECHO-PPI framework are marked [ECHO-PPI].
+# complex set; this file was committed before the first evaluation run.
 # No value was selected by maximising performance on Gavin, Krogan or BioPlex.
 method: TRACE-PPI
 expansion: Tiered Record of Assignment-level Channel Evidence
 random_seed: 42
 
 mcl:
-  inflation: 2.0              # [ECHO-PPI] fixed a priori; Brohee & van Helden range
+  inflation: 2.0              # fixed a priori; Brohee & van Helden range
   expansion: 2
   self_loop_value: 1.0        # markov_clustering default
-  weighted: false             # unweighted adjacency, as in ECHO-PPI
+  weighted: false             # unweighted adjacency
   fallback: none              # a failed MCL run is reported as a failure, never replaced
 
 module:
-  min_module_size: 2          # [ECHO-PPI] reported modules contain >= 2 proteins
+  min_module_size: 2          # reported modules contain >= 2 proteins
   min_split_child_size: 3     # a split child must contain >= 3 proteins
   min_region_size_for_split: 6  # = 2 * min_split_child_size
 
@@ -41,12 +40,12 @@ assignment:
   min_incumbents_for_quantile: 4
   threshold_mode: candidate   # candidate | global
   guard_min_neighbours: 1     # accepted network membership needs >= 1 neighbour in C
-  guard_min_channel: 0.12     # [ECHO-PPI] max(tau, sigma) >= 0.12 (Outer/Uncertain boundary)
-  review_min_semantic: 0.25   # [ECHO-PPI] Inner semantic threshold
-  review_min_go: 0.25         # [ECHO-PPI] supplementation GO gate
+  guard_min_channel: 0.12     # max(tau, sigma) >= 0.12 (Outer/Uncertain boundary)
+  review_min_semantic: 0.25   # Inner semantic threshold
+  review_min_go: 0.25         # supplementation GO gate
   best_supported_fallback: true
 
-supplementation:               # [ECHO-PPI] bounded supplementation, unchanged values
+supplementation:               # bounded supplementation, unchanged values
   enabled: true
   max_extra_members_per_module: 2
   max_relative_size_increase: 0.15
@@ -57,7 +56,7 @@ supplementation:               # [ECHO-PPI] bounded supplementation, unchanged v
   size_penalty_lambda: 0.08
   preserve_precision_floor: 0.24
 
-tiers:                          # [ECHO-PPI] ordered evidence-tier rules on final tau/sigma
+tiers:                          # ordered evidence-tier rules on final tau/sigma
   core: {tau: 0.35, sigma: 0.25}
   inner: 0.25
   outer: 0.12
@@ -75,7 +74,7 @@ stability:
   decision_min_precision_gain: 0.02
 
 embedding:
-  backend: tfidf_svd          # [ECHO-PPI] TF-IDF (1-2 grams, max 8000 features) + SVD
+  backend: tfidf_svd          # TF-IDF (1-2 grams, max 8000 features) + SVD
   dimensions: 64
   svd_random_state: 42
 

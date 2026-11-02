@@ -1,0 +1,2 @@
+dataset,method,core_supported,core_total,noncore_supported,noncore_total,core_fraction,noncore_fraction,odds_ratio,fisher_p_descriptive,or_ci_low,or_ci_high
+bioplex,TRACE-PPI,1112,5683,239,5919,0.19567130036952313,0.04037844230444332,5.781546204057049,5.4919152681930433e-160,4.175052366132606,8.686624786263387

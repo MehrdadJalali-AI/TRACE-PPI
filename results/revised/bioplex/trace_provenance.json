@@ -1,0 +1,55 @@
+{
+  "method": "TRACE-PPI",
+  "version": "1.0.0",
+  "dataset": "bioplex",
+  "config_hash": "2df8e51cc789",
+  "variant": {
+    "deconvolution": true,
+    "heterogeneity_signals": null,
+    "forced": null,
+    "threshold_mode": null,
+    "guard": true,
+    "supplementation": null
+  },
+  "random_seed": 42,
+  "mcl": {
+    "inflation": 2.0,
+    "expansion": 2,
+    "self_loop_value": 1.0,
+    "weighted": false,
+    "fallback": "none",
+    "converged": true,
+    "n_regions": 4054,
+    "n_singletons": 1692,
+    "max_region": 128
+  },
+  "heterogeneity_thresholds": {
+    "topology": 0.41681011296395915,
+    "semantic": 0.45867512830636975,
+    "support": 0.25
+  },
+  "theta_global": 0.39618264746114007,
+  "supplementation_stats": {
+    "proteins_added": 435,
+    "modules_touched": 345,
+    "stop_gate": 0,
+    "stop_gain": 14,
+    "reject_precision": 0
+  },
+  "timing_seconds": {
+    "mcl": 7.617228984832764,
+    "heterogeneity": 0.9367489814758301,
+    "decomposition": 0.11883783340454102,
+    "assignment": 0.36440396308898926,
+    "supplementation": 2.189892292022705,
+    "final_recompute": 0.25202083587646484,
+    "total": 11.576148986816406
+  },
+  "python": "3.9.6",
+  "networkx": "3.2.1",
+  "numpy": "2.0.2",
+  "pandas": "2.2.3",
+  "graph_nodes": 13957,
+  "graph_edges": 118162,
+  "embedding_backend": "tfidf_svd_64_l2"
+}

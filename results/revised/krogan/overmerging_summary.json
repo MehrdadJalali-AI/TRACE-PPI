@@ -1,0 +1,14 @@
+{
+  "mcl_regions_ge2": 595,
+  "eligible_regions": 129,
+  "overmerged_regions": 102,
+  "overmerged_flagged": 10,
+  "overmerged_split": 0,
+  "overmerged_separated_ge2": 0,
+  "merge_attributable_false_memberships": 128,
+  "flagged_regions": 17,
+  "split_regions": 0,
+  "flagged_rejected_no_split": 17,
+  "fragmentation_errors": 0,
+  "split_regions_matching_reference_before_split": 0
+}

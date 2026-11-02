@@ -1,0 +1,9 @@
+{'dataset': 'gavin', 'replicate': 0, 'wall_seconds': 3.49, 'peak_rss_mb': 245.109375, 'trace_seconds': 0.9674088954925537, 'mcl_seconds': 0.5896551609039307, 'load_seconds': 1.1359531879425049}
+{'dataset': 'gavin', 'replicate': 1, 'wall_seconds': 4.95, 'peak_rss_mb': 245.625, 'trace_seconds': 1.2358460426330566, 'mcl_seconds': 0.830833911895752, 'load_seconds': 2.411452054977417}
+{'dataset': 'gavin', 'replicate': 2, 'wall_seconds': 3.77, 'peak_rss_mb': 245.828125, 'trace_seconds': 1.0383329391479492, 'mcl_seconds': 0.641226053237915, 'load_seconds': 1.2350008487701416}
+{'dataset': 'krogan', 'replicate': 0, 'wall_seconds': 10.23, 'peak_rss_mb': 272.46875, 'trace_seconds': 1.248776912689209, 'mcl_seconds': 0.8022170066833496, 'load_seconds': 7.551883935928345}
+{'dataset': 'krogan', 'replicate': 1, 'wall_seconds': 10.38, 'peak_rss_mb': 268.046875, 'trace_seconds': 1.1432509422302246, 'mcl_seconds': 0.7143290042877197, 'load_seconds': 7.664354085922241}
+{'dataset': 'krogan', 'replicate': 2, 'wall_seconds': 10.06, 'peak_rss_mb': 266.890625, 'trace_seconds': 1.16455078125, 'mcl_seconds': 0.7335729598999023, 'load_seconds': 7.453400135040283}
+{'dataset': 'bioplex', 'replicate': 0, 'wall_seconds': 17.05, 'peak_rss_mb': 1715.71875, 'trace_seconds': 11.554119348526001, 'mcl_seconds': 7.255204200744629, 'load_seconds': 3.8204548358917236}
+{'dataset': 'bioplex', 'replicate': 1, 'wall_seconds': 16.91, 'peak_rss_mb': 1714.125, 'trace_seconds': 10.821295022964478, 'mcl_seconds': 6.974135875701904, 'load_seconds': 4.475829124450684}
+{'dataset': 'bioplex', 'replicate': 2, 'wall_seconds': 16.57, 'peak_rss_mb': 1711.65625, 'trace_seconds': 11.010504245758057, 'mcl_seconds': 6.846310138702393, 'load_seconds': 3.912543296813965}
