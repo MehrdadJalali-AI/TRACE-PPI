@@ -1,0 +1,91 @@
+# TRACE-PPI frozen configuration (IDT revision).
+# Every value below was fixed before TRACE-PPI was evaluated against any reference
+# complex set; this file was committed before the first evaluation run.  Values that
+# are inherited from the original ECHO-PPI framework are marked [ECHO-PPI].
+# No value was selected by maximising performance on Gavin, Krogan or BioPlex.
+method: TRACE-PPI
+expansion: Tiered Record of Assignment-level Channel Evidence
+random_seed: 42
+
+mcl:
+  inflation: 2.0              # [ECHO-PPI] fixed a priori; Brohee & van Helden range
+  expansion: 2
+  self_loop_value: 1.0        # markov_clustering default
+  weighted: false             # unweighted adjacency, as in ECHO-PPI
+  fallback: none              # a failed MCL run is reported as a failure, never replaced
+
+module:
+  min_module_size: 2          # [ECHO-PPI] reported modules contain >= 2 proteins
+  min_split_child_size: 3     # a split child must contain >= 3 proteins
+  min_region_size_for_split: 6  # = 2 * min_split_child_size
+
+heterogeneity:
+  quantile: 0.75              # dataset-relative upper-quartile threshold for each signal
+  population: eligible        # thresholds estimated over regions with >= 6 proteins
+  min_votes: 2                # >= 2 of 3 signals must exceed their threshold
+  signals: [topology, semantic, support]
+
+decomposition:
+  alternatives: [no_split, seed_expand, spectral]
+  lambda_separation: 0.5      # weight of the mean-conductance penalty
+  lambda_fragmentation: 0.25  # weight of the normalised part-count penalty
+  min_improvement: 0.02       # a split must beat no-split by more than this margin
+  max_depth: 2                # at most two nested levels of splitting
+  seed_core_neighbours: 4
+  merge_reciprocal_overlap: 0.80
+  tie_order: [no_split, spectral, seed_expand]
+
+assignment:
+  weights: {topology: 0.45, semantic: 0.35, go: 0.20}
+  quantile: 0.25              # candidate-specific lower quartile of incumbent scores
+  min_incumbents_for_quantile: 4
+  threshold_mode: candidate   # candidate | global
+  guard_min_neighbours: 1     # accepted network membership needs >= 1 neighbour in C
+  guard_min_channel: 0.12     # [ECHO-PPI] max(tau, sigma) >= 0.12 (Outer/Uncertain boundary)
+  review_min_semantic: 0.25   # [ECHO-PPI] Inner semantic threshold
+  review_min_go: 0.25         # [ECHO-PPI] supplementation GO gate
+  best_supported_fallback: true
+
+supplementation:               # [ECHO-PPI] bounded supplementation, unchanged values
+  enabled: true
+  max_extra_members_per_module: 2
+  max_relative_size_increase: 0.15
+  min_evidence_score: 0.38
+  min_go_support: 0.25
+  min_topological_support: 0.15
+  min_semantic_support: 0.28
+  size_penalty_lambda: 0.08
+  preserve_precision_floor: 0.24
+
+tiers:                          # [ECHO-PPI] ordered evidence-tier rules on final tau/sigma
+  core: {tau: 0.35, sigma: 0.25}
+  inner: 0.25
+  outer: 0.12
+
+stability:
+  enabled_as_gate: false      # decided by the predeclared rule below
+  edge_removal_fraction: 0.10
+  replicates: 20
+  alignment_jaccard: 0.5
+  gate_threshold: 0.5
+  # Predeclared decision rule: the gate is adopted only if, on the designated
+  # development dataset (Gavin), filtering accepted memberships with stability below
+  # gate_threshold raises membership precision by >= 0.02 without lowering membership F1.
+  decision_dataset: gavin
+  decision_min_precision_gain: 0.02
+
+embedding:
+  backend: tfidf_svd          # [ECHO-PPI] TF-IDF (1-2 grams, max 8000 features) + SVD
+  dimensions: 64
+  svd_random_state: 42
+
+annotation:
+  drop_generic_roots: [GO:0003674, GO:0005575, GO:0008150]
+  exclude_assigned_by: [ComplexPortal]
+  exclude_reference_identifier_prefix: "CPX-"
+  exclude_not_qualifier: true
+
+evaluation:
+  module_jaccard: 0.5
+  membership_mapping_jaccard: 0.25
+  bootstrap_replicates: 1000
